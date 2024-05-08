@@ -1,0 +1,55 @@
+ul {
+    display: flex;
+    column-gap: 35px;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    border: 2px solid;
+    border-radius: 5px;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+.nav {
+    text-align: center;
+}
+.cusine {
+    word-break: break-all;
+}
+.res-container,.shimmer-container {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    row-gap:60px;
+}
+img.resImage {
+    height: 150px;
+    object-fit: cover;
+    width: -webkit-fill-available;
+}
+.res-card {
+    background: #fffbfb;
+    width: 200px;
+    border:1px solid brown;
+    padding:10px;
+    color:brown;
+}
+.shimmer-card{
+    width:200px;
+    background:#f0f0f0;
+    height:400px;
+}
+.body {
+    margin: 5px 0px;
+}
+.filter {
+    display: flex;
+    margin: 10px 0px;
+}
+button.filter-btn {
+    margin: 0px 10px;
+}
